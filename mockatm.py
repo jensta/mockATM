@@ -48,8 +48,8 @@ def atm():
                 print('You selected %s' % selectedOption)
                 userChoice = (input('\n Enter "C" to enter a complaint or enter "E" to return to Main Menu: '))
                 if(userChoice == "C"):
-                    issue = (input('\n Whatissue would you like to report? '))
-                    print('\n Thank you for contacting us')
+                    issue = (input('\n What issue would you like to report? '))
+                    print('\n You have stated " %s " Thank you for contacting us' % issue)
                 elif(userChoice == "E"):
                     atm()
                     pass
